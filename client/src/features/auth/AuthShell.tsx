@@ -19,13 +19,9 @@ export const AuthShell = ({ children }: { children: ReactNode }): JSX.Element =>
             <h1 className="mt-12 max-w-2xl text-5xl font-bold leading-tight">
               Manage every lead from first signal to qualified opportunity.
             </h1>
-            <div className="mt-8 grid max-w-2xl grid-cols-3 gap-3">
-              {["JWT Auth", "RBAC", "CSV Export"].map((item) => (
-                <div key={item} className="rounded-md border border-slate-200 bg-white p-4 shadow-soft dark:border-slate-800 dark:bg-slate-900">
-                  <p className="text-sm font-semibold">{item}</p>
-                </div>
-              ))}
-            </div>
+            <p className="mt-5 max-w-xl text-base leading-7 text-slate-600 dark:text-slate-300">
+              Track source, status, owner, and timing from a focused operations dashboard.
+            </p>
           </section>
 
           <section className="rounded-md border border-slate-200 bg-white p-6 shadow-soft dark:border-slate-800 dark:bg-slate-900 sm:p-8">

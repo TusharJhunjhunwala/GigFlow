@@ -29,8 +29,8 @@ const validateLogin = (email: string, password: string): LoginErrors => {
 export const LoginPage = (): JSX.Element => {
   const navigate = useNavigate();
   const { login, user, loading, error } = useAuth();
-  const [email, setEmail] = useState("admin@gigflow.test");
-  const [password, setPassword] = useState("Admin@12345");
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
   const [errors, setErrors] = useState<LoginErrors>({});
 
   if (user) {
@@ -59,7 +59,7 @@ export const LoginPage = (): JSX.Element => {
       <div>
         <p className="text-sm font-semibold uppercase tracking-wide text-cyan-700 dark:text-cyan-300">Welcome back</p>
         <h1 className="mt-2 text-3xl font-bold">Log in to GigFlow</h1>
-        <p className="mt-2 text-sm text-slate-500 dark:text-slate-400">Use the seeded accounts or register a new workspace user.</p>
+        <p className="mt-2 text-sm text-slate-500 dark:text-slate-400">Access your lead management workspace.</p>
       </div>
 
       <form className="mt-8 space-y-5" onSubmit={handleSubmit}>

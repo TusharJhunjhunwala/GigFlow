@@ -23,13 +23,15 @@ Full-stack lead management dashboard for the ServiceHive assignment. The app use
 
 ## Local Setup
 
+Live deployment: `https://gigflowproject.netlify.app/`
+
 1. Install dependencies:
 
 ```bash
 npm install
 ```
 
-2. Create environment files:
+2. Create environment files. Keep `VITE_API_URL` pointed at the backend API for the environment you are running:
 
 ```bash
 cp .env.example .env
