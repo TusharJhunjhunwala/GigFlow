@@ -1,6 +1,6 @@
 # GigFlow - Smart Leads Dashboard
 
-Full-stack lead management dashboard for the ServiceHive assignment. The app uses React, TypeScript, TailwindCSS, Node.js, Express, MongoDB, Mongoose, JWT authentication, and role-based access control.
+Full-stack lead management dashboard for the ServiceHive . The app uses React, TypeScript, TailwindCSS, Node.js, Express, MongoDB, Mongoose, JWT authentication, and role-based access control.
 
 ## Features
 
